@@ -6,9 +6,9 @@ import productRoutes from './routes/products.js';
 import categorieRoutes from './routes/categories.js';
 // Create a MySQL database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'localhost:3306',
+    user: 'sogedi',
+    password: '******',
     database: 'php-react',
   });
 
